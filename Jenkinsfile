@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building Docker image...'
+                echo 'Building Docker images...'
                 sh 'docker build -t myapp:latest .'
             }
         }
